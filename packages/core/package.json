@@ -1,0 +1,23 @@
+{
+  "version": "0.1.0",
+  "license": "MIT",
+  "name": "@ress/core",
+  "author": "Enes Tüfekçi",
+  "module": "dist/core.esm.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "start": "tsdx watch --format esm",
+    "build": "tsdx build --format esm",
+    "test": "tsdx test --passWithNoTests",
+    "lint": "tsdx lint",
+    "prepare": "tsdx build"
+  },
+  "devDependencies": {
+    "tsdx": "^0.13.0",
+    "tslib": "^2.0.0"
+  }
+}
